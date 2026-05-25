@@ -1,1 +1,75 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agro Sustentável</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+  <header>
+    <h1>Agro Sustentável</h1>
+    <p>Tecnologia e sustentabilidade no agronegócio</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#beneficios">Benefícios</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre" class="container">
+    <h2>Sobre o Projeto</h2>
+    <p>
+      O projeto Agro Sustentável promove práticas agrícolas modernas
+      que preservam o meio ambiente, aumentam a produtividade e reduzem
+      impactos ambientais.
+    </p>
+
+    <button id="btnMensagem">Saiba Mais</button>
+    <p id="mensagem"></p>
+  </section>
+
+  <section id="beneficios" class="container">
+    <h2>Benefícios</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>🌱 Sustentabilidade</h3>
+        <p>Uso consciente dos recursos naturais.</p>
+      </div>
+
+      <div class="card">
+        <h3>🚜 Tecnologia</h3>
+        <p>Automação e agricultura de precisão.</p>
+      </div>
+
+      <div class="card">
+        <h3>💧 Economia de Água</h3>
+        <p>Sistemas inteligentes de irrigação.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="container">
+    <h2>Contato</h2>
+
+    <form id="formContato">
+      <input type="text" id="nome" placeholder="Seu nome" required />
+      <input type="email" id="email" placeholder="Seu e-mail" required />
+      <textarea id="mensagemTexto" placeholder="Sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <p id="resposta"></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Agro Sustentável | Projeto Educacional</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
